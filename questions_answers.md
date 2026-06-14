@@ -62,11 +62,29 @@
 
 ---
 
+### Q10: What are your strengths?
+
+**A:** I'm strong at taking ownership end-to-end — I don't stop at "my part works", I care about whether the system works. I'm also good at bridging the gap between hardware and software: I can read schematics, talk to hardware engineers in their language, and translate that into solid firmware decisions. And I write code that other people can actually read and maintain — which matters more than most people admit.
+
+---
+
+### Q11: What are your weaknesses or areas for improvement?
+
+**A:** I sometimes go too deep into technical details when a higher-level answer would be sufficient. I've learned to catch myself and calibrate — not every discussion needs to go to the register level. I'm also still building experience with very large distributed codebases, which is something I'm genuinely looking forward to at Arm.
+
+---
+
+### Q12: How would your previous colleagues describe you?
+
+**A:** Reliable and thorough — someone who takes ownership and follows through. Probably also someone who cares a lot about doing things the right way, sometimes to the point of pushing for higher standards than what was strictly required. I think they'd say working with me raised the bar for the whole team.
+
+---
+
 ## Behavioral
 
 ---
 
-### Q10: Tell me about a technically complex project you led or owned.
+### Q13: Tell me about a technically complex project you led or owned.
 
 **A:** At Scantinel I owned the full firmware stack for a Xilinx SoC-based FMCW LiDAR system — from bare-metal bring-up to real-time DSP pipelines and host communication. The first major challenge was integration between PL and PS domains: DMA transfers, interrupt handling, and data pipelines all had to be deterministic — the LiDAR generates data at a fixed rate, and any timing slip means lost measurements. I designed the architecture around that constraint from day one.
 
@@ -74,7 +92,7 @@ The second challenge was longevity. The codebase had to work across multiple har
 
 ---
 
-### Q11: Tell me about a time you failed or made a significant mistake.
+### Q14: Tell me about a time you failed or made a significant mistake.
 
 **A:** Once I was building a validation tool for algorithm verification. I invested significant time making it clean, well-structured, and extensible — the kind of code I'd be proud of. I delivered a couple of days late. In the end, the tool was used exactly once.
 
@@ -82,7 +100,7 @@ That was a good lesson: I was optimizing for a future that never came. A quick s
 
 ---
 
-### Q12: Tell me about a conflict with a colleague or another team.
+### Q15: Tell me about a conflict with a colleague or another team.
 
 **A:** I wanted to introduce a custom unified data transfer protocol across the project — a common abstraction for all inter-device communication. My colleagues were resistant: it meant reworking existing code, and nobody wants extra work on top of their current tasks. There was real pushback.
 
@@ -92,7 +110,7 @@ The outcome confirmed it was the right call. Afterwards I heard from colleagues 
 
 ---
 
-### Q13: How do you handle working in a large, distributed organization?
+### Q16: How do you handle working in a large, distributed organization?
 
 **A:** I focus on clarity, documentation, and transparency. When working across teams or time zones, I make sure decisions and interfaces are written down, not just discussed. I believe everyone on the team should have visibility into what others are working on — it prevents duplication, surfaces blockers early, and builds trust. I proactively communicate status and I've found that over-communication is almost always better than under-communication in distributed settings.
 
