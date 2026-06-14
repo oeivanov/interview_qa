@@ -56,3 +56,15 @@
 - How is the team structured in Munich?
 
 ---
+
+## Behavioral
+
+---
+
+### Q9: Tell me about a technically complex project you led or owned.
+
+**A:** At Scantinel I owned the full firmware stack for a Xilinx SoC-based FMCW LiDAR system — from bare-metal bring-up to real-time DSP pipelines and host communication. The first major challenge was integration between PL and PS domains: DMA transfers, interrupt handling, and data pipelines all had to be deterministic — the LiDAR generates data at a fixed rate, and any timing slip means lost measurements. I designed the architecture around that constraint from day one.
+
+The second challenge was longevity. The codebase had to work across multiple hardware revisions, stay maintainable for a growing team, and be properly documented. I introduced a layered architecture with clean hardware abstraction, established coding and documentation standards, and made sure new engineers could onboard without needing me to explain every module personally.
+
+---
