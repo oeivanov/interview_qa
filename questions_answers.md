@@ -51,11 +51,17 @@
 
 ---
 
+### Q8: Are you interviewing with other companies?
+
+**A:** Yes, I have one other process ongoing, but it's not at an advanced stage yet. Arm is clearly my priority — the role fits my background very precisely and the company is in a different league. I'm not looking for just any opportunity, I'm looking for the right one.
+
+---
+
 ## Behavioral
 
 ---
 
-### Q8: Tell me about a technically complex project you led or owned.
+### Q9: Tell me about a technically complex project you led or owned.
 
 **A:** At Scantinel I owned the full firmware stack for a Xilinx SoC-based FMCW LiDAR system — from bare-metal bring-up to real-time DSP pipelines and host communication. The first major challenge was integration between PL and PS domains: DMA transfers, interrupt handling, and data pipelines all had to be deterministic — the LiDAR generates data at a fixed rate, and any timing slip means lost measurements. I designed the architecture around that constraint from day one.
 
@@ -63,7 +69,7 @@ The second challenge was longevity. The codebase had to work across multiple har
 
 ---
 
-### Q9: Tell me about a time you failed or made a significant mistake.
+### Q10: Tell me about a time you failed or made a significant mistake.
 
 **A:** Once I was building a validation tool for algorithm verification. I invested significant time making it clean, well-structured, and extensible — the kind of code I'd be proud of. I delivered a couple of days late. In the end, the tool was used exactly once.
 
@@ -71,7 +77,7 @@ That was a good lesson: I was optimizing for a future that never came. A quick s
 
 ---
 
-### Q10: Tell me about a conflict with a colleague or another team.
+### Q11: Tell me about a conflict with a colleague or another team.
 
 **A:** I wanted to introduce a custom unified data transfer protocol across the project — a common abstraction for all inter-device communication. My colleagues were resistant: it meant reworking existing code, and nobody wants extra work on top of their current tasks. There was real pushback.
 
@@ -81,7 +87,7 @@ The outcome confirmed it was the right call. Afterwards I heard from colleagues 
 
 ---
 
-### Q11: How do you handle working in a large, distributed organization?
+### Q12: How do you handle working in a large, distributed organization?
 
 **A:** I focus on clarity, documentation, and transparency. When working across teams or time zones, I make sure decisions and interfaces are written down, not just discussed. I believe everyone on the team should have visibility into what others are working on — it prevents duplication, surfaces blockers early, and builds trust. I proactively communicate status and I've found that over-communication is almost always better than under-communication in distributed settings.
 
