@@ -86,3 +86,9 @@ Instead of forcing it through, I put together presentations, walked through the 
 The outcome confirmed it was the right call. Afterwards I heard from colleagues more than once that adding new packets had become much simpler. That was more satisfying than any technical achievement — knowing the team genuinely benefited from it.
 
 ---
+
+### Q13: How do you handle working in a large, distributed organization?
+
+**A:** I focus on clarity, documentation, and transparency. When working across teams or time zones, I make sure decisions and interfaces are written down, not just discussed. I believe everyone on the team should have visibility into what others are working on — it prevents duplication, surfaces blockers early, and builds trust. I proactively communicate status and I've found that over-communication is almost always better than under-communication in distributed settings.
+
+---
