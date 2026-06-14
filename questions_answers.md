@@ -76,3 +76,13 @@ The second challenge was longevity. The codebase had to work across multiple har
 That was a good lesson: I was optimizing for a future that never came. A quick script would have done the job just as well, on time, and nobody would have noticed the difference. Since then I consciously ask myself before diving deep — what is the actual lifetime of this thing, and am I building for today's problem or an imaginary tomorrow?
 
 ---
+
+### Q11: Tell me about a conflict with a colleague or another team.
+
+**A:** I wanted to introduce a custom unified data transfer protocol across the project — a common abstraction for all inter-device communication. My colleagues were resistant: it meant reworking existing code, and nobody wants extra work on top of their current tasks. There was real pushback.
+
+Instead of forcing it through, I put together presentations, walked through the concrete advantages, and showed how it would make adding new data packets significantly easier in the future. It took time and several rounds of discussion, but eventually everyone agreed to make the change.
+
+The outcome confirmed it was the right call. Afterwards I heard from colleagues more than once that adding new packets had become much simpler. That was more satisfying than any technical achievement — knowing the team genuinely benefited from it.
+
+---
