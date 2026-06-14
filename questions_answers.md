@@ -68,3 +68,11 @@
 The second challenge was longevity. The codebase had to work across multiple hardware revisions, stay maintainable for a growing team, and be properly documented. I introduced a layered architecture with clean hardware abstraction, established coding and documentation standards, and made sure new engineers could onboard without needing me to explain every module personally.
 
 ---
+
+### Q10: Tell me about a time you failed or made a significant mistake.
+
+**A:** Once I was building a validation tool for algorithm verification. I invested significant time making it clean, well-structured, and extensible — the kind of code I'd be proud of. I delivered a couple of days late. In the end, the tool was used exactly once.
+
+That was a good lesson: I was optimizing for a future that never came. A quick script would have done the job just as well, on time, and nobody would have noticed the difference. Since then I consciously ask myself before diving deep — what is the actual lifetime of this thing, and am I building for today's problem or an imaginary tomorrow?
+
+---
