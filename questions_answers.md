@@ -30,25 +30,13 @@
 
 ---
 
-### Q5: What are your salary expectations?
-
-**A:** I'm looking for a market-competitive package for the Munich area. Based on the posted range of €104,700 – €141,700, I would expect to be positioned in the upper part of that range given my 15 years of hands-on experience.
-
----
-
-### Q6: What is your notice period / when can you start?
-
-**A:** I can start immediately and I have the legal right to work in Germany.
-
----
-
-### Q7: What are you looking for in your next role?
+### Q5: What are you looking for in your next role?
 
 **A:** I'm looking for a role where I stay close to the hardware, work on technically challenging problems, contribute to high-quality firmware and validation, and be part of a company where the work has a broader impact beyond a single product.
 
 ---
 
-### Q8: Do you have any questions for us?
+### Q6: Do you have any questions for us?
 
 **A:**
 - What does success look like in this role during the first 6 months?
@@ -61,7 +49,7 @@
 
 ---
 
-### Q9: Tell me about a technically complex project you led or owned.
+### Q7: Tell me about a technically complex project you led or owned.
 
 **A:** At Scantinel I owned the full firmware stack for a Xilinx SoC-based FMCW LiDAR system — from bare-metal bring-up to real-time DSP pipelines and host communication. The first major challenge was integration between PL and PS domains: DMA transfers, interrupt handling, and data pipelines all had to be deterministic — the LiDAR generates data at a fixed rate, and any timing slip means lost measurements. I designed the architecture around that constraint from day one.
 
@@ -69,7 +57,7 @@ The second challenge was longevity. The codebase had to work across multiple har
 
 ---
 
-### Q10: Tell me about a time you failed or made a significant mistake.
+### Q8: Tell me about a time you failed or made a significant mistake.
 
 **A:** Once I was building a validation tool for algorithm verification. I invested significant time making it clean, well-structured, and extensible — the kind of code I'd be proud of. I delivered a couple of days late. In the end, the tool was used exactly once.
 
@@ -77,7 +65,7 @@ That was a good lesson: I was optimizing for a future that never came. A quick s
 
 ---
 
-### Q11: Tell me about a conflict with a colleague or another team.
+### Q9: Tell me about a conflict with a colleague or another team.
 
 **A:** I wanted to introduce a custom unified data transfer protocol across the project — a common abstraction for all inter-device communication. My colleagues were resistant: it meant reworking existing code, and nobody wants extra work on top of their current tasks. There was real pushback.
 
@@ -87,7 +75,7 @@ The outcome confirmed it was the right call. Afterwards I heard from colleagues 
 
 ---
 
-### Q13: How do you handle working in a large, distributed organization?
+### Q10: How do you handle working in a large, distributed organization?
 
 **A:** I focus on clarity, documentation, and transparency. When working across teams or time zones, I make sure decisions and interfaces are written down, not just discussed. I believe everyone on the team should have visibility into what others are working on — it prevents duplication, surfaces blockers early, and builds trust. I proactively communicate status and I've found that over-communication is almost always better than under-communication in distributed settings.
 
