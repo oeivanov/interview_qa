@@ -39,9 +39,8 @@
 ### Q6: Do you have any questions for us?
 
 **A:**
-- What does success look like in this role during the first 6 months?
-- What are the main technical challenges the team is working on right now?
-- How is the team structured in Munich?
+- What does the interview process look like from here — how many stages should I expect?
+- What is the typical timeline for a decision?
 
 ---
 
