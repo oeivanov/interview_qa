@@ -14,7 +14,7 @@
 
 ### Q2: Why are you interested in this role at Arm?
 
-**A:** This role matches exactly what I know how to do and what I want to do: low-level firmware development, writing highly efficient C code, and working in autonomous driving. I was very inspired by this area in my last role, so it feels like a very natural next step.
+**A:** This is not just a next step in my career — it's a big leap. I've spent 15 years building embedded systems, and this role at Arm is the kind of opportunity I've been working towards: low-level firmware development at the highest level, close to the hardware, in a company whose architecture literally powers the world. Working on autonomous driving firmware at Arm feels like arriving exactly where I should be.
 
 ---
 
