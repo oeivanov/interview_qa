@@ -80,11 +80,29 @@
 
 ---
 
+### Q13: Why should we hire you?
+
+**A:** You should hire me because I bring deep hands-on experience in embedded and firmware development, and I care about the full system, not just my own piece. I know how to work close to the hardware, solve real-time problems, and make decisions that keep both performance and maintainability in mind. I also take ownership seriously — if I join a team, I want to raise the quality of the work around me, not just complete tasks.
+
+---
+
+### Q14: What motivates you?
+
+**A:** I'm motivated by solving difficult engineering problems that have real impact. I enjoy working close to the hardware, understanding how systems behave end to end, and building things that are reliable and useful for other engineers and products. I also like being in an environment where I can keep learning, improve the system, and feel that my work actually matters.
+
+---
+
+### Q15: What would make you successful in this role?
+
+**A:** I would consider myself successful if I quickly became a reliable contributor who can help the team move faster without sacrificing quality. That means understanding the system deeply, communicating clearly, and making decisions that are good for both the short term and the long term. I want to be the person others can trust when a problem is complex, time-sensitive, or cross-functional.
+
+---
+
 ## Behavioral
 
 ---
 
-### Q13: Tell me about a technically complex project you led or owned.
+### Q16: Tell me about a technically complex project you led or owned.
 
 **A:** At Scantinel I owned the full firmware stack for a Xilinx SoC-based FMCW LiDAR system — from bare-metal bring-up to real-time DSP pipelines and host communication. The first major challenge was integration between PL and PS domains: DMA transfers, interrupt handling, and data pipelines all had to be deterministic — the LiDAR generates data at a fixed rate, and any timing slip means lost measurements. I designed the architecture around that constraint from day one.
 
@@ -92,7 +110,7 @@ The second challenge was longevity. The codebase had to work across multiple har
 
 ---
 
-### Q14: Tell me about a time you failed or made a significant mistake.
+### Q17: Tell me about a time you failed or made a significant mistake.
 
 **A:** Once I was building a validation tool for algorithm verification. I invested significant time making it clean, well-structured, and extensible — the kind of code I'd be proud of. I delivered a couple of days late. In the end, the tool was used exactly once.
 
@@ -100,7 +118,7 @@ That was a good lesson: I was optimizing for a future that never came. A quick s
 
 ---
 
-### Q15: Tell me about a conflict with a colleague or another team.
+### Q18: Tell me about a conflict with a colleague or another team.
 
 **A:** I wanted to introduce a custom unified data transfer protocol across the project — a common abstraction for all inter-device communication. My colleagues were resistant: it meant reworking existing code, and nobody wants extra work on top of their current tasks. There was real pushback.
 
@@ -110,7 +128,7 @@ The outcome confirmed it was the right call. Afterwards I heard from colleagues 
 
 ---
 
-### Q16: How do you handle working in a large, distributed organization?
+### Q19: How do you handle working in a large, distributed organization?
 
 **A:** I focus on clarity, documentation, and transparency. When working across teams or time zones, I make sure decisions and interfaces are written down, not just discussed. I believe everyone on the team should have visibility into what others are working on — it prevents duplication, surfaces blockers early, and builds trust. I proactively communicate status and I've found that over-communication is almost always better than under-communication in distributed settings.
 
